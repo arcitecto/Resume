@@ -1,0 +1,234 @@
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+.background {
+  background-color: black;
+  padding-top: 50px;
+  height: 85rem;
+}
+
+.resume-section {
+  background-color: rgb(51, 48, 48);
+  border: 1px solid rgb(51, 48, 48);
+  margin: auto;
+  height: 85rem;
+  width: 80%;
+  height: auto;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border: 5px solid gray;
+  margin-top: 15px;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+.p1 {
+  width: 90%;
+  color: gray;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.first {
+  position: relative;
+  top: 40px;
+  right: 290px;
+}
+
+.aside1 p {
+  width: 100%;
+}
+
+.rule1 {
+  margin-bottom: 100px;
+}
+
+.rule2 {
+  width: 90%;
+}
+
+.stats {
+  border: 1px solid rgb(182, 167, 167);
+  background-color: rgb(143, 133, 133);
+  width: 90%;
+}
+
+.stats .second-stats {
+  color: lime;
+}
+
+.section2 {
+  background-color: rgb(51, 48, 48);
+  border: 1px solid rgb(51, 48, 48);
+
+  width: auto;
+  height: 48rem;
+}
+
+.main {
+  float: left;
+  width: 80%;
+  /* background-color: rgb(51, 48, 48);
+  border: 1px solid rgb(51, 48, 48); */
+}
+
+h4 {
+  color: white;
+  margin-left: 2rem;
+}
+
+.p3 {
+  color: gray;
+  width: 90%;
+  margin: auto;
+}
+
+.history1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.history1 h4 {
+  width: 35rem;
+}
+
+.history1 p {
+  display: flex;
+  justify-content: flex-end;
+  color: gray;
+  margin-right: 2rem;
+}
+
+.history2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.history2 h4 {
+  width: 35rem;
+}
+
+.history2 p {
+  display: flex;
+  justify-content: flex-end;
+  color: gray;
+  margin-right: 2rem;
+}
+
+.history3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.history3 h4 {
+  width: 35rem;
+}
+
+.history3 p {
+  display: flex;
+  justify-content: flex-end;
+  color: gray;
+  margin-right: 2rem;
+}
+
+.history4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.history4 h4 {
+  width: 35rem;
+}
+
+.history4 p {
+  display: flex;
+  justify-content: flex-end;
+  color: gray;
+  margin-right: 2rem;
+}
+
+.p2 {
+  margin: -1.5rem 0 2rem 2rem;
+  color: gray;
+}
+
+.aside2 {
+  float: right;
+  width: 20%;
+  height: auto;
+  color: white;
+  /* background-color: rgb(51, 48, 48);
+  border: 1px solid rgb(51, 48, 48); */
+}
+
+.wordpress {
+  height: 10px;
+  width: 90%;
+  background-color: blue;
+  font-size: 9px;
+}
+
+.php {
+  height: 10px;
+  width: 90%;
+  background-color: rgb(48, 125, 151);
+  font-size: 9px;
+}
+
+.html {
+  height: 10px;
+  width: 90%;
+  background-color: green;
+  font-size: 9px;
+}
+
+.css {
+  height: 10px;
+  width: 90%;
+  background-color: rgb(185, 185, 9);
+  font-size: 9px;
+}
+
+.mysql {
+  height: 10px;
+  width: 90%;
+  background-color: red;
+  font-size: 9px;
+}
+
+ul {
+  list-style: square;
+}
+
+.ratings {
+  display: flex;
+  gap: 5px;
+}
+
+.circle {
+  border: 1px solid black;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgb(48, 125, 151);
+}
+
+.nocircle {
+  border: 1px solid black;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
